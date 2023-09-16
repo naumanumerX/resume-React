@@ -6,16 +6,16 @@ const resumeData = {
   Skills: ['JavaScript', 'React', 'HTML', 'CSS'],
   education: [
     {
-      school: 'University of XYZ',
-      degree: 'Bachelor of Science in Computer Science',
-      year: '2010-2014',
+      school: 'Middlesex University',
+      degree: 'Masters  of Science in Computer Science',
+      year: '2023-24',
     },
   ],
   experience: [
     {
-      company: 'ABC Tech',
+      company: 'Code Tech',
       position: 'Frontend Developer',
-      year: '2014-2018',
+      year: 'April 22- August 2022',
     },
     {
       company: 'XYZ Inc.',
@@ -88,7 +88,9 @@ const Resume = ({ resumeData }) => {
 function App() {
   return (
     <>
+    <div className="stuff">
       <Resume resumeData={resumeData} />
+      </div>
     </>
   );
 }
