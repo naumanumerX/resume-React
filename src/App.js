@@ -86,10 +86,14 @@ const Resume = ({ resumeData }) => {
 };
 
 function App() {
+  const print = () => window.print();
   return (
     <>
     <div className="stuff">
       <Resume resumeData={resumeData} />
+      <div >
+        <button className="btn" onClick={print}>Click To Get PDF</button>
+      </div>
       </div>
     </>
   );
